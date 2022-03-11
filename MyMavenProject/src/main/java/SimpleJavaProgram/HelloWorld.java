@@ -12,5 +12,7 @@ public class HelloWorld {
         System.out.println("Enter a string");
         String str = scanner.nextLine();
         System.out.println(StringUtils.containsAny(str,"@","#"));
+        System.out.println(StringUtils.containsNone(str,"@","#"));
+
     }
 }
